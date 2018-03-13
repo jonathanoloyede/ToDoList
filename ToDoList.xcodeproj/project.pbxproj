@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB932E94205846FF00EE7B1B /* listModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AB932E92205846FF00EE7B1B /* listModel.xcdatamodeld */; };
 		ABAC21472047719600ACFED4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ABAC21462047719600ACFED4 /* AppDelegate.m */; };
-		ABAC214A2047719600ACFED4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABAC21492047719600ACFED4 /* ViewController.m */; };
 		ABAC214D2047719600ACFED4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABAC214B2047719600ACFED4 /* Main.storyboard */; };
 		ABAC214F2047719600ACFED4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABAC214E2047719600ACFED4 /* Assets.xcassets */; };
 		ABAC21522047719600ACFED4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABAC21502047719600ACFED4 /* LaunchScreen.storyboard */; };
 		ABAC21552047719600ACFED4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ABAC21542047719600ACFED4 /* main.m */; };
 		ABAC215F2047719600ACFED4 /* ToDoListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABAC215E2047719600ACFED4 /* ToDoListTests.m */; };
 		ABAC216A2047719600ACFED4 /* ToDoListUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABAC21692047719600ACFED4 /* ToDoListUITests.m */; };
+		ABAC21792048DA8900ACFED4 /* AddToDoItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABAC21782048DA8900ACFED4 /* AddToDoItemViewController.m */; };
+		ABAC217F2048DBED00ACFED4 /* ToDoListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABAC217E2048DBED00ACFED4 /* ToDoListTableViewController.m */; };
+		ABAC21822049D8DC00ACFED4 /* ToDoItem.m in Sources */ = {isa = PBXBuildFile; fileRef = ABAC21812049D8DC00ACFED4 /* ToDoItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,11 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AB932E93205846FF00EE7B1B /* listModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = listModel.xcdatamodel; sourceTree = "<group>"; };
 		ABAC21422047719600ACFED4 /* ToDoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABAC21452047719600ACFED4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		ABAC21462047719600ACFED4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		ABAC21482047719600ACFED4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		ABAC21492047719600ACFED4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		ABAC214C2047719600ACFED4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ABAC214E2047719600ACFED4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ABAC21512047719600ACFED4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +53,12 @@
 		ABAC21652047719600ACFED4 /* ToDoListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDoListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABAC21692047719600ACFED4 /* ToDoListUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToDoListUITests.m; sourceTree = "<group>"; };
 		ABAC216B2047719600ACFED4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABAC21772048DA8900ACFED4 /* AddToDoItemViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddToDoItemViewController.h; sourceTree = "<group>"; };
+		ABAC21782048DA8900ACFED4 /* AddToDoItemViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddToDoItemViewController.m; sourceTree = "<group>"; };
+		ABAC217D2048DBED00ACFED4 /* ToDoListTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ToDoListTableViewController.h; sourceTree = "<group>"; };
+		ABAC217E2048DBED00ACFED4 /* ToDoListTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToDoListTableViewController.m; sourceTree = "<group>"; };
+		ABAC21802049D8DC00ACFED4 /* ToDoItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ToDoItem.h; sourceTree = "<group>"; };
+		ABAC21812049D8DC00ACFED4 /* ToDoItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToDoItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,13 +111,18 @@
 			children = (
 				ABAC21452047719600ACFED4 /* AppDelegate.h */,
 				ABAC21462047719600ACFED4 /* AppDelegate.m */,
-				ABAC21482047719600ACFED4 /* ViewController.h */,
-				ABAC21492047719600ACFED4 /* ViewController.m */,
 				ABAC214B2047719600ACFED4 /* Main.storyboard */,
+				ABAC21802049D8DC00ACFED4 /* ToDoItem.h */,
+				ABAC21812049D8DC00ACFED4 /* ToDoItem.m */,
+				ABAC217D2048DBED00ACFED4 /* ToDoListTableViewController.h */,
+				ABAC217E2048DBED00ACFED4 /* ToDoListTableViewController.m */,
+				ABAC21772048DA8900ACFED4 /* AddToDoItemViewController.h */,
+				ABAC21782048DA8900ACFED4 /* AddToDoItemViewController.m */,
 				ABAC214E2047719600ACFED4 /* Assets.xcassets */,
 				ABAC21502047719600ACFED4 /* LaunchScreen.storyboard */,
 				ABAC21532047719600ACFED4 /* Info.plist */,
 				ABAC21542047719600ACFED4 /* main.m */,
+				AB932E92205846FF00EE7B1B /* listModel.xcdatamodeld */,
 			);
 			path = ToDoList;
 			sourceTree = "<group>";
@@ -265,9 +278,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ABAC214A2047719600ACFED4 /* ViewController.m in Sources */,
 				ABAC21552047719600ACFED4 /* main.m in Sources */,
+				ABAC21822049D8DC00ACFED4 /* ToDoItem.m in Sources */,
+				ABAC217F2048DBED00ACFED4 /* ToDoListTableViewController.m in Sources */,
 				ABAC21472047719600ACFED4 /* AppDelegate.m in Sources */,
+				ABAC21792048DA8900ACFED4 /* AddToDoItemViewController.m in Sources */,
+				AB932E94205846FF00EE7B1B /* listModel.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,7 +450,7 @@
 				DEVELOPMENT_TEAM = XKC5MJ4G6B;
 				INFOPLIST_FILE = ToDoList/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.ToDoList;
+				PRODUCT_BUNDLE_IDENTIFIER = com.JonO.ToDoList;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -448,7 +464,7 @@
 				DEVELOPMENT_TEAM = XKC5MJ4G6B;
 				INFOPLIST_FILE = ToDoList/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.ToDoList;
+				PRODUCT_BUNDLE_IDENTIFIER = com.JonO.ToDoList;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -552,6 +568,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AB932E92205846FF00EE7B1B /* listModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AB932E93205846FF00EE7B1B /* listModel.xcdatamodel */,
+			);
+			currentVersion = AB932E93205846FF00EE7B1B /* listModel.xcdatamodel */;
+			path = listModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = ABAC213A2047719600ACFED4 /* Project object */;
 }
